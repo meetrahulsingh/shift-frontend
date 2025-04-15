@@ -6,7 +6,7 @@ document.getElementById('shiftForm').addEventListener('submit', async (e) => {
   const responseDiv = document.getElementById('response');
 
   try {
-    const res = await fetch('https://your-backend-url.onrender.com/api/shifts', {
+    const res = await fetch('https://shift-backend-1-is60.onrender.com/api/shifts', {
       method: 'POST',
       headers: {
         'Content-Type': 'application/json',
